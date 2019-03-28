@@ -6,7 +6,7 @@ steps{
 echo 'hi, this is rajeh'
 }
 }
-stage('two")
+stage('two')
 {
 steps{
 input('do you want proceed?')
