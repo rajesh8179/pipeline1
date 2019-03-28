@@ -1,7 +1,7 @@
 pipeline{
 agent any
    stages{
-atage('one'){
+stage('one'){
 steps{
 echo 'hi, this is rajeh'
 }
@@ -35,7 +35,7 @@ stage('integration test'){
 agent{
 docker{
 reuseNode false
- unage 'ubuntu'
+ image 'ubuntu'
 }
 }
 steps{
