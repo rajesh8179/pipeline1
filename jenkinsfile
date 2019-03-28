@@ -12,7 +12,7 @@ steps{
 input('do you want proceed?')
 }
 }
-stage('three")
+stage('three')
 {
 when{
   not{
@@ -39,7 +39,7 @@ reuseNode false
 }
 }
 steps{
-echo 'running integration test..'
+echo "running integration test.."
 }
 }
 }
